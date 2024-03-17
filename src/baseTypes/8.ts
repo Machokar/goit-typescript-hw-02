@@ -3,6 +3,7 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 
-const myGender;
+type Human_Gender = "male" | "female";
+const myGender: Human_Gender = "male";
 
 export {};
